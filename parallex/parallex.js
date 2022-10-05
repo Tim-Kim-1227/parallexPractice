@@ -21,7 +21,7 @@ window.onload = function () {
     console.log(command);
     title.style.top = 130 + scrollVal - command + 'px';
 
-    command = -1050 + scrollVal * 4;
+    command = -1050 + scrollVal*1.3;
     console.log(command);
     if(command >= 425){
       command = 425;
